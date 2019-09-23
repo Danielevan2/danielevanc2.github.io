@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>form page</title>
+
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+ 
+  <h1>Buat Account Baru!</h1>
+ <form action="./welcomepage.html">
+  <h2>Sign Up Form</h2>
+
+  <section class="firstname">
+    <label for="fn">First name:</label>
+    <br>
+    <input type="text" name="fn">
+  </section>
+
+  <br>
+
+   <section class="lastname">
+    <label for="ln">Last name:</label>
+    <br>
+    <input type="text" name="ln">
+  </section>
+
+  <br>
+
+   <section class="Gender">
+     <span>Gender:</span>
+     <br>
+      <input type="radio" name="Gender" value="male" id="male">
+      <label for="male">male</label>
+    <br>
+      <input type="radio" name="Gender" value="female" id="female">
+      <label for="female">female</label>
+    <br>
+      <input type="radio" name="Gender" value="other" id="other">
+      <laber for="other">other</laber>
+      
+   </section>
+
+  <br>
+
+   <section class="nationalty">
+     <label for="country">Nationalty:</label>
+     <br>
+     <select name="country" id="country">
+      <option value="indonesian">indonesian</option>
+      <option value="malaysian">malaysian</option>
+      <option value="american">american</option>
+     </select>
+   </section>
+
+  <br>
+
+   <section class="language">
+     <span>Languange spoken:</span>
+     <br>
+     <input type="checkbox" name="country" id="indonesia" value="indonesia">
+     <label for="indonesia">indonesia</label>
+     <br>
+     <input type="checkbox" name="country" id="english" value="english">
+     <label for="english">english</label>
+     <br>
+     <input type="checkbox" name="country" id="other" value="other">
+     <label for="other">other</label>
+   </section>
+
+  <br>
+
+   <section class="bio">
+    <label for="bio">Bio:</label>
+    <br>
+    <textarea name="bio" id="bio" rows="3" cols="40"></textarea>
+   </section>
+
+  <br>
+
+        <section class="submission">
+          <input type="submit" value="Sign Up">
+        </section>
+
+
+ </form>  
+</body>
+
+</html>
